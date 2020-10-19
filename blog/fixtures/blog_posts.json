@@ -1,0 +1,137 @@
+[
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Who was Django Reinhardt?",
+    "slug": "django-reinhardt",
+    "author": 1,
+    "body": "The creator of Django",
+    "publish": "2020-09-11T05:37:10Z",
+    "created": "2020-09-11T05:50:36.697Z",
+    "updated": "2020-09-11T13:59:14.316Z",
+    "status": "published"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Another Post",
+    "slug": "another-post",
+    "author": 1,
+    "body": "Post body.",
+    "publish": "2020-09-11T09:27:14Z",
+    "created": "2020-09-11T09:27:19.665Z",
+    "updated": "2020-09-15T06:57:49.152Z",
+    "status": "published"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "One more post",
+    "slug": "one-more-post",
+    "author": 1,
+    "body": "Post body.",
+    "publish": "2020-09-11T09:31:20Z",
+    "created": "2020-09-11T09:31:20.893Z",
+    "updated": "2020-09-15T06:58:12.478Z",
+    "status": "published"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "Another Test",
+    "slug": "another-test",
+    "author": 1,
+    "body": "Just another test\r\nJust another test\r\nJust another test\r\nJust another test\r\nJust another test\r\nJust another test",
+    "publish": "2020-09-15T20:23:57Z",
+    "created": "2020-09-15T20:24:57.069Z",
+    "updated": "2020-09-15T21:30:03.168Z",
+    "status": "published"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "Markdown Test",
+    "slug": "markdown-test",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\nHere is a list:\r\n* One\r\n* Two\r\n* Three\r\nAnd a [link to the Django website](https://www.djangoproject.com/)",
+    "publish": "2020-09-15T21:33:26Z",
+    "created": "2020-09-15T21:34:42.272Z",
+    "updated": "2020-09-15T21:34:42.272Z",
+    "status": "published"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 3,
+    "name": "Olisaemeka",
+    "email": "olisaemekafredrick@gmail.com",
+    "body": "jkkkj",
+    "created": "2020-09-14T09:51:32.392Z",
+    "updated": "2020-09-14T12:05:19.281Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 3,
+    "name": "Olisaemeka",
+    "email": "olisaemekafredrick@gmail.com",
+    "body": "hjkjkjkj",
+    "created": "2020-09-14T09:55:02.038Z",
+    "updated": "2020-09-14T12:05:31.221Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 1,
+    "name": "Olisaemeka",
+    "email": "olisaemekafredrick@gmail.com",
+    "body": "Interesting!!",
+    "created": "2020-09-14T09:55:47.285Z",
+    "updated": "2020-09-14T09:55:47.285Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 1,
+    "name": "Olisaemeka",
+    "email": "olisaemekafredrick@gmail.com",
+    "body": "Thank you for letting us know",
+    "created": "2020-09-14T11:57:48.426Z",
+    "updated": "2020-09-14T11:57:48.426Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 2,
+    "name": "Olisaemeka",
+    "email": "olisaemekafredrick@gmail.com",
+    "body": "kfdlk",
+    "created": "2020-09-14T12:03:19.950Z",
+    "updated": "2020-09-14T12:05:02.121Z",
+    "active": false
+  }
+}
+]
